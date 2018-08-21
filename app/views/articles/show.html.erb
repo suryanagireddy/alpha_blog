@@ -4,6 +4,9 @@
     <h4 class="center description"><strong>Description</strong></h4>
     <%=simple_format(@article.description) %>
     <hr>
+    <% if @article.categories.any? %>
+        <p> Categories: <%= render @article.categories %></p>
+    <% end %>
     <% if @article.user %>
     <ul class = "center listing" >
         <div class = "row">

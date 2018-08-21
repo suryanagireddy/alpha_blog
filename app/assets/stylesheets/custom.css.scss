@@ -75,6 +75,25 @@ padding-bottom: 15px;
     padding-left: 0;
 }
 
+.badge {
+    background-color :#CEF6F5;
+    text-transform : uppercase;
+    // letter-spacing : -1px;
+    font-weight : bold;
+}
+
+.input_checkbox input{
+    width: auto !important;
+}
+
+.about-page{
+    // width: 1100px;
+    border: 15px solid green;
+    padding: 15px;
+    margin: 15px;
+    text-align: justify;
+}
+
 footer{
     margin-top: 45px;
     padding-top: 5px;
